@@ -5,6 +5,18 @@
 #used to find future potential applicants of the program and score them on likelihood of positive impact. Various visualizations including a decision tree are used
 #to illustrate the complex relationship between people's factors and the treatment effect.
 
+library(tree.interpreter)
+library(caret)
+library(dplyr)
+library(mltools)
+library(data.table)
+library(haven)
+library(purrr)
+library(rpart)
+library(rattle)
+library(rpart.plot)
+library(RColorBrewer)
+library(stats)
 
 #report here https://www.aeaweb.org/articles?id=10.1257/app.20130535
 #full data here https://www.openicpsr.org/openicpsr/project/116333/version/V1/view
